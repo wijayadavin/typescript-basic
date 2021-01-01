@@ -4,7 +4,8 @@
   "description": "This is a repository to practice the basics of typescript, a language that aims at easing development of large scale applications written in JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/wijayadavin/typescript-basic/issues"
   },
-  "homepage": "https://github.com/wijayadavin/typescript-basic#readme"
+  "homepage": "https://github.com/wijayadavin/typescript-basic#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
