@@ -1,18 +1,16 @@
-console.log("Hello World");
-// Core types:
-// number, string, boolean
-function add(n1, n2, showResult, phrase) {
-    var result = n1 + n2;
-    if (showResult) {
-        console.log(phrase + result);
-    }
-    else {
-        return n1 + n2;
-    }
-}
-var number1 = 5;
-var number2 = 2.8;
-var printResult = true;
-var resultPhrase = "Result is ";
-var result = add(number1, number2, printResult, resultPhrase);
-console.log(result);
+// Basic 3
+// object, array, tupple
+var person = {
+    name: "Davin Wijaya",
+    age: 26,
+    hobbies: ["Sport", "Coding"],
+    role: [2, "admin"]
+};
+// person.role[1] = 10;
+var favoriteActivities;
+favoriteActivities = ["Sport", 1];
+console.log(person.name);
+person.hobbies.forEach(function (hobby) {
+    console.log(hobby.toUpperCase());
+    console.log(hobby.map());
+});

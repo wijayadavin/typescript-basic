@@ -1,21 +1,26 @@
-console.log("Hello World");
+// Basic 3
+// object, array, tupple (strict declare except push), enum
 
-// Basic 2:
-// core types:
-// number, string, boolean
+const person: {
+  name: string;
+  age: number;
+  hobbies: ["Sport", "Coding"];
+  role: [number, string];
+} = {
+  name: "Davin Wijaya",
+  age: 26,
+  hobbies: ["Sport", "Coding"],
+  role: [2, "admin"],
+};
 
-function add(n1: number, n2: number, showResult: boolean, phrase: string) {
-  let result = n1 + n2;
-  if (showResult) {
-    console.log(phrase + result);
-  } else {
-    return n1 + n2;
-  }
-}
+person.role = [0, "admin", "user"];
 
-let number1: number = 5;
-const number2 = 2.8;
-const printResult = true;
-const resultPhrase = "Result is ";
-const result = add(number1, number2, printResult, resultPhrase);
-console.log(result);
+let favoriteActivities: any[];
+favoriteActivities = ["Sport", 1];
+
+console.log(person.name);
+
+person.hobbies.forEach((hobby) => {
+  console.log(hobby.toUpperCase());
+  console.log(hobby.map());
+});
