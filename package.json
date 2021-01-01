@@ -1,0 +1,23 @@
+{
+  "name": "typescript-basic",
+  "version": "1.0.0",
+  "description": "This is a repository to practice the basics of typescript, a language that aims at easing development of large scale applications written in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wijayadavin/typescript-basic.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ],
+  "author": "Davin Wijaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wijayadavin/typescript-basic/issues"
+  },
+  "homepage": "https://github.com/wijayadavin/typescript-basic#readme"
+}
