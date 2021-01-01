@@ -13,7 +13,8 @@ test a simple typscript file and run it
 ## Basic 2
 
 install & use lite-server
+Using Typescript with String, Number, and Boolean
 
 ## Basic 3
 
-Object data type
+Using Typescript with Object, Array, Tupple
