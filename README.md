@@ -1,6 +1,6 @@
 # typescript-basic
 
-This is a repository to practice the basics of typescript, a language that aims at easing development of large scale applications written in JavaScrip.
+This is a repository to practice the basics of typescript, a language that aims at easing development of large scale applications written in JavaScript.
 
 ### Easy life and more productivity.
 
