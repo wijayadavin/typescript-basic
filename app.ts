@@ -13,7 +13,7 @@ const person: {
   role: [2, "admin"],
 };
 
-person.role = [0, "admin", "user"];
+person.role = [0, "admin"];
 
 let favoriteActivities: any[];
 favoriteActivities = ["Sport", 1];
@@ -22,5 +22,4 @@ console.log(person.name);
 
 person.hobbies.forEach((hobby) => {
   console.log(hobby.toUpperCase());
-  console.log(hobby.map());
 });
