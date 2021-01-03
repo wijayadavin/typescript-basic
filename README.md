@@ -18,3 +18,7 @@ Using Typescript with String, Number, and Boolean
 ## Basic 3
 
 Using Typescript with Object, Array, Tupple
+
+## Basic 4
+
+Using Typescript with Enum, Any, and Union
